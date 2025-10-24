@@ -1,0 +1,29 @@
+# Core LangChain dependencies
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.10
+langgraph>=0.0.20
+langchain-openai>=0.0.5
+
+# OpenAI API
+openai>=1.0.0
+
+# Pydantic for data validation
+pydantic>=2.0.0
+
+# Rich for beautiful terminal output
+rich>=13.0.0
+
+# Typing extensions
+typing-extensions>=4.5.0
+
+# Vector store dependencies (for character context management)
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+
+# Web UI dependencies
+streamlit>=1.28.0
+
+# Optional: For graph visualization (requires graphviz system package)
+# pygraphviz>=1.11
+
