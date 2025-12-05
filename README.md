@@ -2,6 +2,8 @@
 
 **Version 2.0** - Now with Beautiful Web UI! 🌐
 
+App is live at: https://mysteryagent-ggbfawlxnu67s77bnb8vws.streamlit.app
+
 An interactive detective game powered by Large Language Models (LLMs) and LangGraph. Step into the shoes of Sherlock Holmes and solve procedurally generated murder mysteries!
 
 Play via elegant **Sherlock Holmes themed web interface** 🎩 or classic **terminal UI** 💻
@@ -289,23 +291,6 @@ output = game_graph.invoke({
 - If embeddings fail, the system automatically falls back to simple text chunking
 - Check OpenAI API rate limits if you see embedding errors
 - Cache persists across runs - use `reset_cache()` for fresh start
-
-## 🚀 Deploy to the Web
-
-Want to share your Murder Mystery Agent with the world? Deploy it for free on **Streamlit Community Cloud**!
-
-### Quick Deploy Steps
-
-1. **Push to GitHub**: Make sure your code is in a public GitHub repository
-2. **Go to Streamlit Cloud**: Visit [share.streamlit.io](https://share.streamlit.io)
-3. **Deploy**: Click "New app", select your repo, set main file to `web_app.py`
-4. **Add Secrets**: In Settings → Secrets, add your OpenAI API key:
-   ```toml
-   OPENAI_API_KEY = "your-key-here"
-   ```
-5. **Share**: Your app will be live at `https://your-app-name.streamlit.app`!
-
-📖 **Full deployment guide**: See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions and alternative hosting options.
 
 ---
 
